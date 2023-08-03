@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA325E542A7AAA04001CC952 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA325E532A7AAA04001CC952 /* DetailView.swift */; };
+		AA325E562A7AAC59001CC952 /* webView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA325E552A7AAC59001CC952 /* webView.swift */; };
 		AA4944342A79EF7B00CA6EA5 /* H4XORApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4944332A79EF7B00CA6EA5 /* H4XORApp.swift */; };
 		AA4944362A79EF7B00CA6EA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4944352A79EF7B00CA6EA5 /* ContentView.swift */; };
 		AA4944382A79EF7C00CA6EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4944372A79EF7C00CA6EA5 /* Assets.xcassets */; };
 		AA49443B2A79EF7C00CA6EA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA49443A2A79EF7C00CA6EA5 /* Preview Assets.xcassets */; };
+		AA4944452A79F79100CA6EA5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4944442A79F79100CA6EA5 /* NetworkManager.swift */; };
+		AA4944482A79F89C00CA6EA5 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4944472A79F89C00CA6EA5 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA325E532A7AAA04001CC952 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AA325E552A7AAC59001CC952 /* webView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webView.swift; sourceTree = "<group>"; };
 		AA4944302A79EF7B00CA6EA5 /* H4XOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4XOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4944332A79EF7B00CA6EA5 /* H4XORApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XORApp.swift; sourceTree = "<group>"; };
 		AA4944352A79EF7B00CA6EA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA4944372A79EF7C00CA6EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA49443A2A79EF7C00CA6EA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA4944442A79F79100CA6EA5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AA4944472A79F89C00CA6EA5 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		AA4944492A79FF3E00CA6EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA325E522A7AA9E7001CC952 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4944352A79EF7B00CA6EA5 /* ContentView.swift */,
+				AA325E532A7AAA04001CC952 /* DetailView.swift */,
+				AA325E552A7AAC59001CC952 /* webView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AA4944272A79EF7B00CA6EA5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,11 @@
 		AA4944322A79EF7B00CA6EA5 /* H4XOR */ = {
 			isa = PBXGroup;
 			children = (
+				AA4944492A79FF3E00CA6EA5 /* Info.plist */,
+				AA4944412A79F75900CA6EA5 /* NetworkManager */,
+				AA4944462A79F88D00CA6EA5 /* Model */,
 				AA4944332A79EF7B00CA6EA5 /* H4XORApp.swift */,
-				AA4944352A79EF7B00CA6EA5 /* ContentView.swift */,
+				AA325E522A7AA9E7001CC952 /* View */,
 				AA4944372A79EF7C00CA6EA5 /* Assets.xcassets */,
 				AA4944392A79EF7C00CA6EA5 /* Preview Content */,
 			);
@@ -65,6 +87,22 @@
 				AA49443A2A79EF7C00CA6EA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA4944412A79F75900CA6EA5 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA4944442A79F79100CA6EA5 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		AA4944462A79F88D00CA6EA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA4944472A79F89C00CA6EA5 /* Results.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4944452A79F79100CA6EA5 /* NetworkManager.swift in Sources */,
+				AA325E562A7AAC59001CC952 /* webView.swift in Sources */,
 				AA4944362A79EF7B00CA6EA5 /* ContentView.swift in Sources */,
+				AA4944482A79F89C00CA6EA5 /* Results.swift in Sources */,
+				AA325E542A7AAA04001CC952 /* DetailView.swift in Sources */,
 				AA4944342A79EF7B00CA6EA5 /* H4XORApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +312,7 @@
 				DEVELOPMENT_TEAM = 9P58HZ7L2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = H4XOR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +341,7 @@
 				DEVELOPMENT_TEAM = 9P58HZ7L2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = H4XOR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
