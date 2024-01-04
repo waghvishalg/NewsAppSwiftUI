@@ -12,7 +12,6 @@
 		AA487E0C2B403B40006F0F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA487E0B2B403B40006F0F4C /* Assets.xcassets */; };
 		AA487E0F2B403B40006F0F4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA487E0E2B403B40006F0F4C /* Preview Assets.xcassets */; };
 		AA83BEA82B444E2000C4A21E /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83BEA72B444E2000C4A21E /* WeatherButton.swift */; };
-		AA83BEAA2B4455E000C4A21E /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83BEA92B4455E000C4A21E /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		AA487E0B2B403B40006F0F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA487E0E2B403B40006F0F4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA83BEA72B444E2000C4A21E /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
-		AA83BEA92B4455E000C4A21E /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				AA83BEA72B444E2000C4A21E /* WeatherButton.swift */,
 				AA487E0B2B403B40006F0F4C /* Assets.xcassets */,
 				AA487E0D2B403B40006F0F4C /* Preview Content */,
-				AA83BEA92B4455E000C4A21E /* WeatherModel.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			files = (
 				AA487E0A2B403B3F006F0F4C /* ContentView.swift in Sources */,
 				AA487E082B403B3F006F0F4C /* WeatherApp.swift in Sources */,
-				AA83BEAA2B4455E000C4A21E /* WeatherModel.swift in Sources */,
 				AA83BEA82B444E2000C4A21E /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
